@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: af7991c69c81728469d789458f544d4a
-timeCreated: 1477880014
+guid: 58bf9ae4f2a297845a6f0dbc0aab8574
+timeCreated: 1478062172
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,7 +60,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 41
+        width: 43
         height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -71,9 +71,9 @@ TextureImporter:
       name: ButtonYellow_1
       rect:
         serializedVersion: 2
-        x: 41
+        x: 43
         y: 0
-        width: 41
+        width: 43
         height: 27
       alignment: 0
       pivot: {x: 0, y: 0}

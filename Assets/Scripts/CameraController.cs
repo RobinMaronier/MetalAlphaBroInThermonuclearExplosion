@@ -3,33 +3,24 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
-    public float speed = 3.0f;
+    public GameObject player;       //Public variable to store a reference to the player game object
+
+    private Vector3 offset;         //Private variable to store the offset distance between the player and camera
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
-	
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        //Calculate and store the offset value by getting the distance between the player's position and camera's position.
+        offset = transform.position - player.transform.position;
+    }
+
+    // LateUpdate is called after Update each frame
+    void LateUpdate()
     {
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
+        // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
+        if (player)
         {
-            transform.position += Vector3.up * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-        {
-            transform.position += Vector3.down * speed * Time.deltaTime;
-        }
-        //Handle playerspeed
-        if (Input.GetKey(KeyCode.Keypad3) || Input.GetKey(KeyCode.Alpha1))
-        {
-            speed = 1.5f;
-        }
-        else
-        {
-            speed = 3f;
+            transform.position = new Vector3(0.5f, player.transform.position.y, -1f) + offset;
         }
     }
 }

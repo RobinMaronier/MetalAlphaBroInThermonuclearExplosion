@@ -6,6 +6,7 @@ public class RandomLinearMove2d : MonoBehaviour
     public float maxDistance = 1.0f;
     public float moveTime = 1.0f;
     public float waitTime = 1.0f;
+    public bool remainNearInitialPosition = false;
 
     // Use this for initialization
     void Start()
@@ -15,6 +16,8 @@ public class RandomLinearMove2d : MonoBehaviour
 
     IEnumerator RandomMove()
     {
+        CharacterController controller = GetComponent<CharacterController>();
+
         float t = 0.0f;
         float currentMoveTime = moveTime;
         Vector3 initialPosition = transform.position;

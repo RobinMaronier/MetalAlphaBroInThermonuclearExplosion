@@ -5,7 +5,11 @@ public class GameOverOnDestroy : MonoBehaviour
 {
     void OnDestroy()
     {
-        GameManager gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        gameManager.gameOver = true;
+        GameObject gameManagerObject = GameObject.FindGameObjectWithTag("GameManager");
+        if (gameManagerObject != null)
+        {
+            GameManager gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+            gameManager.gameOver = true;
+        }
     }
 }

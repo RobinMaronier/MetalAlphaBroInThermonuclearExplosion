@@ -17,4 +17,10 @@ public class SpawnObject : MonoBehaviour
         Instantiate(objectToSpawn, transform.position, transform.rotation);
         Invoke("Spawn", spawnDelay);
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(transform.position, Vector3.one);
+    }
 }

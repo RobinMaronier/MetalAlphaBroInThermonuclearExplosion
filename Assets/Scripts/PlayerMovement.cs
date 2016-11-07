@@ -4,6 +4,8 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
 	public float speed = 3.0f;
+    public GameObject slash;
+    private bool melee = false;
 
     Animator anim;
 
@@ -16,12 +18,13 @@ public class PlayerMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+        CharacterController controller = GetComponent<CharacterController>();
         bool left, right, up, down;
 
         //transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f) * Time.deltaTime;
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.A))
 		{
-			transform.position += Vector3.left * speed * Time.deltaTime;
+			controller.Move(Vector3.left * speed * Time.deltaTime);
             left = true;
         }
         else
@@ -30,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
 		{
-			transform.position += Vector3.right * speed * Time.deltaTime;
+            controller.Move(Vector3.right * speed * Time.deltaTime);
             right = true;
         }
         else
@@ -39,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
 		{
-			transform.position += Vector3.up * speed * Time.deltaTime;
+            controller.Move(Vector3.up * speed * Time.deltaTime);
             up = true;
         }
         else
@@ -48,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
 		{
-			transform.position += Vector3.down * speed * Time.deltaTime;
+            controller.Move(Vector3.down * speed * Time.deltaTime);
             down = true;
         }
         else
@@ -64,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("moving", false);
         }
         //Handle playerspeed
-        if (Input.GetKey(KeyCode.Keypad3) || Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKey(KeyCode.Keypad3) || Input.GetKey(KeyCode.Alpha1) || Input.GetKey(KeyCode.M))
         {
             speed = 1.5f;
         }
@@ -72,5 +75,24 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = 3f;
         }
+        //Handle melee
+        if ((Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.L)) && melee == false)
+        {
+            melee = true;
+            anim.SetBool("melee", true);
+            Invoke("MeleeDelay", 0.5f);
+            Invoke("InstantiateSlash", 0.15f);
+        }
+    }
+
+    void InstantiateSlash()
+    {
+        Instantiate(slash, transform.position + new Vector3(0, 0.9f, 0), transform.rotation);
+    }
+
+    void MeleeDelay()
+    {
+        melee = false;
+        anim.SetBool("melee", false);
     }
 }

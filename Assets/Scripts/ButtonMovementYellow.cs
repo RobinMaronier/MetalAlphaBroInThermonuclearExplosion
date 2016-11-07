@@ -16,7 +16,7 @@ public class ButtonMovementYellow : MonoBehaviour
     void Update()
     {
         //Fire
-        if (Input.GetKey(KeyCode.Keypad2) || Input.GetKey(KeyCode.Alpha2))
+        if (Input.GetKey(KeyCode.Keypad2) || Input.GetKey(KeyCode.Alpha2) || Input.GetKey(KeyCode.L))
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = Down;
         }
