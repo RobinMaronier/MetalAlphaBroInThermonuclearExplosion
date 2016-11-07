@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - PlayerHead
   - RedBarrel
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - BlockingObject
   - HalfBlockingObject
   - NoBlockingObject
-  - 
+  - BombBullet
   - 
   - 
   - 

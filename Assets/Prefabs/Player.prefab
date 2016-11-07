@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000011144586236}
   - 114: {fileID: 114000014257918844}
   m_Layer: 8
-  m_Name: Bomb (18) SOUND
+  m_Name: Bomb (18) MAIN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,6 +133,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013461953238}
+  - 82: {fileID: 82000013845581696}
+  - 114: {fileID: 114000012264430482}
   m_Layer: 8
   m_Name: Bomb Container
   m_TagString: Untagged
@@ -264,6 +266,22 @@ GameObject:
   - 114: {fileID: 114000013374305548}
   m_Layer: 8
   m_Name: Bomb (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012048436834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010074416258}
+  - 114: {fileID: 114000013648870444}
+  m_Layer: 0
+  m_Name: Skill01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,6 +601,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000013461953238}
   m_RootOrder: 8
+--- !u!4 &4000010074416258
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012048436834}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.32952487, y: 0.50231004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012218307594}
+  m_RootOrder: 0
 --- !u!4 &4000010076142962
 Transform:
   m_ObjectHideFlags: 1
@@ -738,7 +769,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: -90}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!4 &4000011266551194
 Transform:
   m_ObjectHideFlags: 1
@@ -764,7 +795,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!4 &4000011322175028
 Transform:
   m_ObjectHideFlags: 1
@@ -777,7 +808,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &4000011476764358
 Transform:
   m_ObjectHideFlags: 1
@@ -790,7 +821,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!4 &4000011512679752
 Transform:
   m_ObjectHideFlags: 1
@@ -816,7 +847,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!4 &4000011772705352
 Transform:
   m_ObjectHideFlags: 1
@@ -841,6 +872,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 4000010074416258}
   - {fileID: 4000011322175028}
   - {fileID: 4000014293251062}
   - {fileID: 4000011729748184}
@@ -880,7 +912,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -120, y: 90, z: -90}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!4 &4000012778193304
 Transform:
   m_ObjectHideFlags: 1
@@ -893,7 +925,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -20, y: 90, z: -90}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!4 &4000012891762252
 Transform:
   m_ObjectHideFlags: 1
@@ -919,7 +951,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -160, y: 90, z: -90}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!4 &4000013034986846
 Transform:
   m_ObjectHideFlags: 1
@@ -979,7 +1011,7 @@ Transform:
   - {fileID: 4000010815061340}
   - {fileID: 4000013034986846}
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!4 &4000013614327978
 Transform:
   m_ObjectHideFlags: 1
@@ -1005,7 +1037,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: -90}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!4 &4000013968470702
 Transform:
   m_ObjectHideFlags: 1
@@ -1031,7 +1063,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -60, y: 90, z: -90}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!4 &4000014293251062
 Transform:
   m_ObjectHideFlags: 1
@@ -1044,7 +1076,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012218307594}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!54 &54000013822882940
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -1454,6 +1486,80 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!82 &82000013845581696
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010857552394}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7b9ad13181dea4045b46f606464d2c6e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!82 &82000014075196078
 AudioSource:
   m_ObjectHideFlags: 1
@@ -1582,7 +1688,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000010175349872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1628,7 +1738,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000010594240938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1641,7 +1755,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000010643770748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1789,7 +1907,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000011700421158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1802,7 +1924,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000011834010886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1815,7 +1941,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000011899329016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1828,7 +1958,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000012235184122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1847,6 +1981,19 @@ MonoBehaviour:
   - {fileID: 1000012986350384}
   - {fileID: 1000012342929732}
   - {fileID: 1000010409340360}
+--- !u!114 &114000012264430482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010857552394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482608b208ab39c4aa557f587af7a087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotDelay: 2
+  bombNumber: 3
 --- !u!114 &114000012340621466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1859,7 +2006,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000012478224970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1872,7 +2023,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000012504353590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1885,7 +2040,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000012638958230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1898,7 +2057,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000012746736452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1924,7 +2087,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000013215422850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1937,7 +2104,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000013218218336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1950,7 +2121,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000013374305548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1963,7 +2138,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000013424048246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1993,7 +2172,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000013545535024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2006,7 +2189,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
+--- !u!114 &114000013648870444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012048436834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdbbbbbe1871fb4d9e0bf76ffa75b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   shotDelay: 1
+  skillNumber: 5
+  full: {fileID: 21300000, guid: 07e7557b32c8bd54cbfcb5d985b4760d, type: 3}
+  empty: {fileID: 21300002, guid: 07e7557b32c8bd54cbfcb5d985b4760d, type: 3}
 --- !u!114 &114000013809135902
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2019,7 +2221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000014065597128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2032,7 +2238,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000014197779912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2045,7 +2255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
-  shotDelay: 1
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 0
+  full: {fileID: 0}
+  empty: {fileID: 0}
 --- !u!114 &114000014243099354
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2077,8 +2291,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4f407b22aa6fcc499692fc189800689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bomb: {fileID: 1000010578548034, guid: be0d4704ef889504a848761f246ff99b, type: 2}
-  shotDelay: 1
+  bomb: {fileID: 1000012709166712, guid: 637114ef98b919347a576e9311fddc2a, type: 2}
+  shotDelay: 2
+  bombNumber: 3
+  isMain: 1
+  full: {fileID: 21300000, guid: fe1fd4bffa62ab040b81c3c924c73b23, type: 3}
+  empty: {fileID: 21300002, guid: fe1fd4bffa62ab040b81c3c924c73b23, type: 3}
 --- !u!143 &143000010799928776
 CharacterController:
   m_ObjectHideFlags: 1

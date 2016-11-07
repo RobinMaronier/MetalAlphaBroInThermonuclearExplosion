@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010931943228}
   - 212: {fileID: 212000011215965444}
   - 114: {fileID: 114000011679749152}
-  m_Layer: 12
+  m_Layer: 19
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,8 @@ GameObject:
   - 114: {fileID: 114000012513945926}
   - 65: {fileID: 65000012968730254}
   - 54: {fileID: 54000012884233588}
-  m_Layer: 12
+  - 114: {fileID: 114000013284460200}
+  m_Layer: 19
   m_Name: GunFire03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,6 +125,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &114000013284460200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012709166712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86007039f1dce9844a75498871e06d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gib: {fileID: 1000011262792426, guid: 136f4571438db424ca6c42c30fbe1782, type: 2}
 --- !u!212 &212000011215965444
 SpriteRenderer:
   m_ObjectHideFlags: 1
