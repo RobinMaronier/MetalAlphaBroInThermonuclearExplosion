@@ -277,7 +277,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gib: {fileID: 1000011114343784, guid: 60f3b2f0c1d422c4c83ac31ede2c2261, type: 2}
+  pointAnimation: {fileID: 1000010039767452, guid: 6ad3922b4e587584fbea40a5bab44bb6,
+    type: 2}
   life: 3
+  points: 100
 --- !u!114 &114000012166440910
 MonoBehaviour:
   m_ObjectHideFlags: 1

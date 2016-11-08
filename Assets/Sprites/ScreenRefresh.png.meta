@@ -1,0 +1,1515 @@
+fileFormatVersion: 2
+guid: c25d2c40cf1ec3b48af91bb76253e4d5
+timeCreated: 1478605514
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ScreenRefresh_0
+    21300002: ScreenRefresh_1
+    21300004: ScreenRefresh_2
+    21300006: ScreenRefresh_3
+    21300008: ScreenRefresh_4
+    21300010: ScreenRefresh_5
+    21300012: ScreenRefresh_6
+    21300014: ScreenRefresh_7
+    21300016: ScreenRefresh_8
+    21300018: ScreenRefresh_9
+    21300020: ScreenRefresh_10
+    21300022: ScreenRefresh_11
+    21300024: ScreenRefresh_12
+    21300026: ScreenRefresh_13
+    21300028: ScreenRefresh_14
+    21300030: ScreenRefresh_15
+    21300032: ScreenRefresh_16
+    21300034: ScreenRefresh_17
+    21300036: ScreenRefresh_18
+    21300038: ScreenRefresh_19
+    21300040: ScreenRefresh_20
+    21300042: ScreenRefresh_21
+    21300044: ScreenRefresh_22
+    21300046: ScreenRefresh_23
+    21300048: ScreenRefresh_24
+    21300050: ScreenRefresh_25
+    21300052: ScreenRefresh_26
+    21300054: ScreenRefresh_27
+    21300056: ScreenRefresh_28
+    21300058: ScreenRefresh_29
+    21300060: ScreenRefresh_30
+    21300062: ScreenRefresh_31
+    21300064: ScreenRefresh_32
+    21300066: ScreenRefresh_33
+    21300068: ScreenRefresh_34
+    21300070: ScreenRefresh_35
+    21300072: ScreenRefresh_36
+    21300074: ScreenRefresh_37
+    21300076: ScreenRefresh_38
+    21300078: ScreenRefresh_39
+    21300080: ScreenRefresh_40
+    21300082: ScreenRefresh_41
+    21300084: ScreenRefresh_42
+    21300086: ScreenRefresh_43
+    21300088: ScreenRefresh_44
+    21300090: ScreenRefresh_45
+    21300092: ScreenRefresh_46
+    21300094: ScreenRefresh_47
+    21300096: ScreenRefresh_48
+    21300098: ScreenRefresh_49
+    21300100: ScreenRefresh_50
+    21300102: ScreenRefresh_51
+    21300104: ScreenRefresh_52
+    21300106: ScreenRefresh_53
+    21300108: ScreenRefresh_54
+    21300110: ScreenRefresh_55
+    21300112: ScreenRefresh_56
+    21300114: ScreenRefresh_57
+    21300116: ScreenRefresh_58
+    21300118: ScreenRefresh_59
+    21300120: ScreenRefresh_60
+    21300122: ScreenRefresh_61
+    21300124: ScreenRefresh_62
+    21300126: ScreenRefresh_63
+    21300128: ScreenRefresh_64
+    21300130: ScreenRefresh_65
+    21300132: ScreenRefresh_66
+    21300134: ScreenRefresh_67
+    21300136: ScreenRefresh_68
+    21300138: ScreenRefresh_69
+    21300140: ScreenRefresh_70
+    21300142: ScreenRefresh_71
+    21300144: ScreenRefresh_72
+    21300146: ScreenRefresh_73
+    21300148: ScreenRefresh_74
+    21300150: ScreenRefresh_75
+    21300152: ScreenRefresh_76
+    21300154: ScreenRefresh_77
+    21300156: ScreenRefresh_78
+    21300158: ScreenRefresh_79
+    21300160: ScreenRefresh_80
+    21300162: ScreenRefresh_81
+    21300164: ScreenRefresh_82
+    21300166: ScreenRefresh_83
+    21300168: ScreenRefresh_84
+    21300170: ScreenRefresh_85
+    21300172: ScreenRefresh_86
+    21300174: ScreenRefresh_87
+    21300176: ScreenRefresh_88
+    21300178: ScreenRefresh_89
+    21300180: ScreenRefresh_90
+    21300182: ScreenRefresh_91
+    21300184: ScreenRefresh_92
+    21300186: ScreenRefresh_93
+    21300188: ScreenRefresh_94
+    21300190: ScreenRefresh_95
+    21300192: ScreenRefresh_96
+    21300194: ScreenRefresh_97
+    21300196: ScreenRefresh_98
+    21300198: ScreenRefresh_99
+    21300200: ScreenRefresh_100
+    21300202: ScreenRefresh_101
+    21300204: ScreenRefresh_102
+    21300206: ScreenRefresh_103
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScreenRefresh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_5
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_7
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 636
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_12
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_13
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_15
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 583
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_18
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_20
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_21
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_22
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_23
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 530
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_25
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_29
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_30
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_31
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 477
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_33
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_34
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_35
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_36
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_37
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_38
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_39
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 424
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_42
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_43
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_44
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_45
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_46
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_47
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 371
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_49
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_50
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_51
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_52
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_53
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_54
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_55
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 318
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_57
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_58
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_60
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_61
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_62
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_63
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 265
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_66
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_67
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_68
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_69
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_70
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_71
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 212
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_73
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_74
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_75
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_76
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_78
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_79
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 159
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_81
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_82
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_83
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_84
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_85
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_86
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_87
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 106
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_89
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_90
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_91
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_92
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_93
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_94
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_95
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 53
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_97
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_98
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_99
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_100
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_101
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_102
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScreenRefresh_103
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

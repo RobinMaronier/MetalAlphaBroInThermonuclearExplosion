@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerShoot.cs" />
      <Compile Include="Assets\Scripts\PlayerShootLazer.cs" />
+     <Compile Include="Assets\Scripts\PointBehaviour.cs" />
      <Compile Include="Assets\Scripts\PowerUp.cs" />
      <Compile Include="Assets\Scripts\PowerUpManager.cs" />
      <Compile Include="Assets\Scripts\RandomLinearMove2d.cs" />
@@ -95,6 +96,7 @@
      <Compile Include="Assets\Scripts\SpawnObject.cs" />
      <Compile Include="Assets\Scripts\SpawnWave.cs" />
      <Compile Include="Assets\Scripts\StretchSpriteBetweenPoints.cs" />
+     <Compile Include="Assets\Scripts\playerScore.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

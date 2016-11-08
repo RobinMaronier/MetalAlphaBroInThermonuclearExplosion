@@ -4,8 +4,12 @@ using System.Collections;
 public class GibOnTrigger : MonoBehaviour
 {
     public GameObject gib = null;
+    public GameObject pointAnimation = null;
     public int life = 3;
+    public int points = 0;
     Animator anim;
+
+    private GameObject player = null;
 
     // Use this for initialization
     void Start ()
@@ -19,18 +23,14 @@ public class GibOnTrigger : MonoBehaviour
         anim.SetBool("isTakingDamage", true);
         Invoke("IsNotTakingDamageAnymore", 0.5f);
         life--;
-        if (life <= 0)
-        {
-            if (gib != null)
-            {
-                Instantiate(gib, transform.position, gib.transform.rotation);
-            }
-            //transform.parent.SendMessage("Dead", transform.position, SendMessageOptions.DontRequireReceiver);
-            Destroy(gameObject);
-        }
+        CheckDeath();
 	}
 
     void Update()
+    {
+    }
+
+    public void CheckDeath()
     {
         if (life <= 0)
         {
@@ -38,7 +38,12 @@ public class GibOnTrigger : MonoBehaviour
             {
                 Instantiate(gib, transform.position, gib.transform.rotation);
             }
-            //transform.parent.SendMessage("Dead", transform.position, SendMessageOptions.DontRequireReceiver);
+            if (pointAnimation != null)
+            {
+                Instantiate(pointAnimation, transform.position, pointAnimation.transform.rotation);
+            }
+            player = GameObject.FindGameObjectWithTag("Player");
+            player.transform.Find("PlayerScore").GetComponent<playerScore>().AddToScoreThenDisplay(points);
             Destroy(gameObject);
         }
     }

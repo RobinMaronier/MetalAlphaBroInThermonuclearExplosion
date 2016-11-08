@@ -31,6 +31,7 @@ public class BarrelRedBehaviour : MonoBehaviour
                 if (distance < 3)
                 {
                     obj.GetComponent<GibOnTrigger>().life -= 3;
+                    obj.GetComponent<GibOnTrigger>().CheckDeath();
                 }
             }
             /*foreach (GameObject obj in GameObject.FindGameObjectsWithTag("RedBarrel"))
