@@ -4,6 +4,8 @@ using System.Collections;
 public class DestroyOnImpact : MonoBehaviour
 {
     public GameObject gib = null;
+    public float xFromSource = 0.3f;
+    public float yFromSource = 0.8f;
 
     // Use this for initialization
     void Start ()
@@ -16,7 +18,7 @@ public class DestroyOnImpact : MonoBehaviour
     {
         if (gib != null)
         {
-            Instantiate(gib, transform.position + new Vector3(0.3f, 0.8f, 0), gib.transform.rotation);
+            Instantiate(gib, transform.position + new Vector3(xFromSource, yFromSource, 0), gib.transform.rotation);
         }
         Destroy(gameObject);
     }
