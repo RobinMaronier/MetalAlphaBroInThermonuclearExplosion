@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -71,11 +71,11 @@
      <Compile Include="Assets\Scripts\GameOverOnDestroy.cs" />
      <Compile Include="Assets\Scripts\GibOnTrigger.cs" />
      <Compile Include="Assets\Scripts\HarrassPlayer.cs" />
+     <Compile Include="Assets\Scripts\ItemSelectionChange.cs" />
      <Compile Include="Assets\Scripts\JoystickMovement.cs" />
      <Compile Include="Assets\Scripts\LimitFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\LookAtNearestEnemy.cs" />
      <Compile Include="Assets\Scripts\LookAtNearestPlayer.cs" />
-     <Compile Include="Assets\Scripts\MainMenu\UIManager.cs" />
      <Compile Include="Assets\Scripts\MoveDown.cs" />
      <Compile Include="Assets\Scripts\MoveForward.cs" />
      <Compile Include="Assets\Scripts\OnHittingBlockingObject.cs" />
@@ -98,13 +98,13 @@
      <Compile Include="Assets\Scripts\StretchSpriteBetweenPoints.cs" />
      <Compile Include="Assets\Scripts\playerScore.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

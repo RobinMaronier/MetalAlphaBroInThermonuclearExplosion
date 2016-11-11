@@ -10,6 +10,8 @@ TagManager:
   - PlayerHead
   - RedBarrel
   - Wall
+  - MenuItem
+  - MenuItemLogo
   layers:
   - Default
   - TransparentFX
