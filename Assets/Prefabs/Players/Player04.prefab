@@ -1872,8 +1872,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aba0b15bfd064d4ca816cc3c4bfab1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: 45
-  rotationTime: 1
+  rotation: 20
+  rotationTime: 0.5
 --- !u!114 &114000011346558262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2258,8 +2258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aba0b15bfd064d4ca816cc3c4bfab1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: -45
-  rotationTime: 1
+  rotation: -20
+  rotationTime: 0.5
 --- !u!114 &114000013241116064
 MonoBehaviour:
   m_ObjectHideFlags: 1
