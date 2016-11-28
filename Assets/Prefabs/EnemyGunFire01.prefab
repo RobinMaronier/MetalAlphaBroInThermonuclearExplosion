@@ -109,6 +109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gib: {fileID: 0}
+  xFromSource: 0.3
+  yFromSource: 0.8
 --- !u!114 &114000013516071190
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -63,7 +63,10 @@ public class PlayerShootShotgun : MonoBehaviour
 
     void ResetReadyToShoot()
     {
-
+        for (int i = 1; i <= 7; ++i)
+        {
+            transform.Find("ShotgunShell0" + i).GetComponent<ShotgunShellBehaviour>().readyToShoot = true;
+        }
         readyToShoot = true;
     }
 
@@ -75,6 +78,6 @@ public class PlayerShootShotgun : MonoBehaviour
             ++currentBulletNumber;
             HUD[currentBulletNumber -1].GetComponent<SpriteRenderer>().sprite = full;
         }
-        readyToShoot = true;
+        ResetReadyToShoot();
     }
 }

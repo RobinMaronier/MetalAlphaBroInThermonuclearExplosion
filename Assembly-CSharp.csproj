@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DestroyAfterDelay.cs" />
+     <Compile Include="Assets\GameOverManager.cs" />
+     <Compile Include="Assets\PlayerKatana.cs" />
      <Compile Include="Assets\PlayerShootMinigun.cs" />
      <Compile Include="Assets\PlayerShootSniper.cs" />
      <Compile Include="Assets\Scripts\BarrelRedBehaviour.cs" />
@@ -103,6 +105,7 @@
      <Compile Include="Assets\Scripts\playerScore.cs" />
      <Compile Include="Assets\ShotgunShellBehaviour.cs" />
      <Compile Include="Assets\Skill04Behaviour.cs" />
+     <Compile Include="Assets\Sounds.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -18,11 +18,16 @@ public class GibOnTrigger : MonoBehaviour
     }
 	
 	// Update is called once per frame
-	void OnTriggerEnter()
+	void OnTriggerEnter(Collider col)
     {
         anim.SetBool("isTakingDamage", true);
         Invoke("IsNotTakingDamageAnymore", 0.5f);
-        life--;
+        if (col.tag == "Knife")
+            life -= 3;
+        else if (col.tag == "Katana")
+            life -= 6;
+        else
+            life--;
         CheckDeath();
 	}
 

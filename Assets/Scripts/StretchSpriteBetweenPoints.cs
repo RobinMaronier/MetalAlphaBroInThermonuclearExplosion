@@ -35,7 +35,8 @@ public class StretchSpriteBetweenPoints : MonoBehaviour
                 DestroyAfterDelay();
             }
             GetComponent<AudioSource>().pitch = Random.Range(minPitch, maxPitch);
-            GetComponent<AudioSource>().Play();
+            if (enabled)
+                GetComponent<AudioSource>().Play();
             Strech(gameObject,
                 /*startPosition*/player.transform.position + new Vector3(0.25f, 0.4f, 0),
                 /*endPosition*/nearestEnemy.transform.position, mirrorZ);
@@ -48,9 +49,12 @@ public class StretchSpriteBetweenPoints : MonoBehaviour
 
     void Update()
     {
-        Strech(gameObject,
+        if (nearestEnemy)
+        {
+            Strech(gameObject,
                 /*startPosition*/player.transform.position + new Vector3(0.25f, 0.4f, 0),
                 /*endPosition*/nearestEnemy.transform.position, mirrorZ);
+        }
     }
 
     public void Strech(GameObject _sprite, Vector3 _initialPosition, Vector3 _finalPosition, bool _mirrorZ)

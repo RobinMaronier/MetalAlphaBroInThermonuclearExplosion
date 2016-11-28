@@ -4,7 +4,7 @@ using System.Collections;
 
 public class playerScore : MonoBehaviour
 {
-    public Text scoreText;
+    //public Text scoreText;
     public GameObject[] scoreNumbers;
     public Sprite[] digits;
 
@@ -34,7 +34,7 @@ public class playerScore : MonoBehaviour
             zeros += "0";
             ++i;
         }
-        scoreText.text = zeros + score.ToString();
+        //scoreText.text = zeros + score.ToString();
 
         scoreStr = score.ToString();
         i = 0;

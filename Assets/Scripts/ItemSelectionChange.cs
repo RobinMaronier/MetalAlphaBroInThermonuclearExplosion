@@ -35,6 +35,8 @@ public class ItemSelectionChange : MonoBehaviour {
 	private Sprite[] checkedSprites;
 	private Sprite[] logoSprites;
 
+	private bool waitInput = false;
+	private float waitInputSecond = 0.1f;
 
 	// Use this for initialization
 	void Start () {
@@ -50,31 +52,41 @@ public class ItemSelectionChange : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)) {
-			if (currentSelection + 1 >= currentSprites.Length) {
-				if (this.CircularMenu) {
-					currentSelection = 0;
+		if (!this.waitInput) {
+			if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)) {
+				if (currentSelection + 1 >= currentSprites.Length) {
+					if (this.CircularMenu) {
+						currentSelection = 0;
+					} else {
+						currentSelection = currentSprites.Length - 1;
+					}
 				} else {
-					currentSelection = currentSprites.Length - 1;
+					currentSelection++;
 				}
-			} else {
-				currentSelection++;
-			}
-			this.updateSpriteMenuItem ();
-		} else if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.Z) || Input.GetKey (KeyCode.W)) {
-			if (currentSelection - 1 < 0) {
-				if (this.CircularMenu) {
-					currentSelection = currentSprites.Length - 1;
+				StartCoroutine(this.MyCoroutine ());
+				this.updateSpriteMenuItem ();
+			} else if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.Z) || Input.GetKey (KeyCode.W)) {
+				if (currentSelection - 1 < 0) {
+					if (this.CircularMenu) {
+						currentSelection = currentSprites.Length - 1;
+					} else {
+						currentSelection = 0;
+					}
 				} else {
-					currentSelection = 0;
+					currentSelection--;
 				}
-			} else {
-				currentSelection--;
+				StartCoroutine(this.MyCoroutine ());
+				this.updateSpriteMenuItem ();
+			} else if (Input.GetKey (KeyCode.Return) || Input.GetKey(KeyCode.K)) {
+				this.activeAction ();
 			}
-			this.updateSpriteMenuItem ();
-		} else if (Input.GetKey (KeyCode.Return)) {
-			Application.LoadLevel("testScene");
 		}
+	}
+
+	private IEnumerator MyCoroutine() {
+		waitInput = true;
+		yield return new WaitForSeconds (this.waitInputSecond);
+		waitInput = false;
 	}
 
 	private void updateSpriteMenuItem() {
@@ -84,11 +96,40 @@ public class ItemSelectionChange : MonoBehaviour {
 			currentSprites [i] = uncheckedSprites [i];
 		}
 		currentSprites [currentSelection] = checkedSprites [currentSelection];
-		GameObject[] itemMenu = GameObject.FindGameObjectsWithTag ("MenuItem");
-		for (int i = 0; i < currentSprites.Length; i++) {
-			itemMenu [itemMenu.Length - 1 - i].GetComponent<SpriteRenderer> ().sprite = currentSprites [i];
+
+		this.setNewSprite (GameObject.Find ("OnePlayer"), currentSprites [0]);
+		this.setNewSprite (GameObject.Find ("TwoPlayers"), currentSprites [1]);
+		this.setNewSprite (GameObject.Find ("Arcade"), currentSprites [2]);
+		this.setNewSprite (GameObject.Find ("Settings"), currentSprites [3]);
+		this.setNewSprite (GameObject.Find ("Credits"), currentSprites [4]);
+		this.setNewSprite (GameObject.Find ("Exit"), currentSprites [5]);
+		this.setNewSprite (GameObject.Find ("SelectedItemLogo"), logoSprites [currentSelection]);
+	}
+
+	private void setNewSprite(GameObject sr, Sprite newSprite) {
+		sr.GetComponent<SpriteRenderer> ().sprite = newSprite;
+	}
+
+	private void activeAction() {
+		switch (this.currentSelection) {
+		case 0: // One Player
+			Application.LoadLevel ("testScene");
+			break;
+		case 1: // Two Players
+			Application.LoadLevel ("testScene");
+			break;
+		case 2: // Arcade
+			Application.LoadLevel ("testScene");
+			break;
+		case 3: //Settings
+			break;
+		case 4: // Credits
+			break;
+		case 5: // Exit
+			Application.Quit ();
+			break;
+		default:
+			break;
 		}
-		GameObject logoSelected = GameObject.FindGameObjectWithTag ("MenuItemLogo");
-		logoSelected.GetComponent<SpriteRenderer> ().sprite = logoSprites [currentSelection];
 	}
 }

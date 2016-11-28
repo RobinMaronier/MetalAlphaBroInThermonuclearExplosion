@@ -5,8 +5,8 @@ public class ShotgunShellBehaviour : MonoBehaviour
 {
     public GameObject gunFire;
     public GameObject shotgunParent;
+    public bool readyToShoot = true;
 
-    private bool readyToShoot = true;
     private int currentBombNumber;
 
     // Use this for initialization
@@ -17,8 +17,9 @@ public class ShotgunShellBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.K) && shotgunParent.GetComponent<PlayerShootShotgun>().readyToShoot == true)
+        if (Input.GetKey(KeyCode.K) && readyToShoot == true)
         {
+            readyToShoot = false;
             Invoke("ShootingWithRandomDelay", Random.Range(0.0f, 0.2f));
         }
     }

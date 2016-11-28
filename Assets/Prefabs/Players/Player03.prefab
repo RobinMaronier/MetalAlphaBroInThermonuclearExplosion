@@ -191,7 +191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1000011175277358
 GameObject:
   m_ObjectHideFlags: 1
@@ -965,7 +965,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011284523044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5489063, y: 0.57649356, z: 0}
+  m_LocalPosition: {x: 0.8808825, y: 2.0852804, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -1567,7 +1567,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1999,6 +1999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000010583790948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2029,6 +2030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000010903233678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2138,7 +2140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  slash: {fileID: 1000010792203478, guid: 73be77da319597c43a920621d98459a5, type: 2}
 --- !u!114 &114000011481804072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2250,6 +2251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000011886856266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2280,6 +2282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000012153668120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2428,6 +2431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000012796283160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2459,7 +2463,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd3ba64ab46ead4cae85fa235a6c774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
   scoreNumbers:
   - {fileID: 0}
   - {fileID: 0}
@@ -2528,6 +2531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000013210345674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2552,6 +2556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunFire: {fileID: 1000011349308246, guid: b5d295c516892014e9e7300dead8c914, type: 2}
   shotgunParent: {fileID: 1000012508812520}
+  readyToShoot: 1
 --- !u!114 &114000013287160988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2676,6 +2681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e77a4971d1cec4f8899634ac0016d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slash: {fileID: 1000010792203478, guid: 73be77da319597c43a920621d98459a5, type: 2}
 --- !u!114 &114000013960692116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2705,7 +2711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: 5
-  gib: {fileID: 1000011713237588, guid: 796f4cc167d348b44b70a3b4a2bcccbc, type: 2}
+  gib: {fileID: 1000013522045824, guid: e9f533d0142f222488e9eec472abb87e, type: 2}
   objectToDestroy: {fileID: 1000011284523044}
   full: {fileID: 21300000, guid: a6ac76f95c88b2b4c8ae917e2eff2b97, type: 3}
   lessFull: {fileID: 21300002, guid: a6ac76f95c88b2b4c8ae917e2eff2b97, type: 3}

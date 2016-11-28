@@ -21,13 +21,11 @@ GameObject:
   - 4: {fileID: 4000011825828116}
   - 212: {fileID: 212000014064086910}
   - 65: {fileID: 65000010293276270}
-  - 65: {fileID: 65000014159704852}
-  - 65: {fileID: 65000013836843108}
   - 114: {fileID: 114000013691628852}
   - 95: {fileID: 95000011891393808}
   m_Layer: 10
   m_Name: Slash
-  m_TagString: Untagged
+  m_TagString: Knife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,30 +44,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!65 &65000010293276270
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012177532890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.88, y: 1.12, z: 0.2}
-  m_Center: {x: 0, y: -0.36, z: 0}
---- !u!65 &65000013836843108
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012177532890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.88, y: 1.12, z: 0.2}
-  m_Center: {x: 0, y: -0.36, z: 0}
---- !u!65 &65000014159704852
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

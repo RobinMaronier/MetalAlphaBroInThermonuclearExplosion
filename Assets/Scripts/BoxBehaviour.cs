@@ -19,9 +19,14 @@ public class BoxBehaviour : MonoBehaviour
 	
 	}
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider col)
     {
-        --healthPoint;
+        if (col.tag == "Knife")
+            healthPoint -= 3;
+        else if (col.tag == "Katana")
+            healthPoint -= 6;
+        else
+            healthPoint--;
         if (healthPoint <= 0)
         {
             Instantiate(gib, transform.position, gib.transform.rotation);
