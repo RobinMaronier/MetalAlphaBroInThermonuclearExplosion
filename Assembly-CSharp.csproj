@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\DestroyAfterDelay.cs" />
      <Compile Include="Assets\GameOverManager.cs" />
+     <Compile Include="Assets\LockCameraEnd.cs" />
      <Compile Include="Assets\PlayerKatana.cs" />
      <Compile Include="Assets\PlayerShield.cs" />
      <Compile Include="Assets\PlayerShootMinigun.cs" />
