@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyShoot01 : MonoBehaviour
 {
     public GameObject bullet;
-    public float shotDelay = 1.0f;
+    public float shotDelay = 2.0f;
     private bool readyToShoot = false;
     private bool waitingToShoot = false;
 
