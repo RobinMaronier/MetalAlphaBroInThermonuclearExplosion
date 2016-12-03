@@ -47,8 +47,11 @@ public class GibOnTrigger : MonoBehaviour
             {
                 Instantiate(pointAnimation, transform.position, pointAnimation.transform.rotation);
             }
-            player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.Find("PlayerScore").GetComponent<playerScore>().AddToScoreThenDisplay(points);
+            if (player)
+            {
+                player = GameObject.FindGameObjectWithTag("Player");
+                player.transform.Find("PlayerScore").GetComponent<playerScore>().AddToScoreThenDisplay(points);
+            }
             Destroy(gameObject);
         }
     }
