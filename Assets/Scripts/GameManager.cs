@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject levelComplete;
     public bool gameOver = false;
     public GameObject[] players;
     public Sprite[] weapons;
@@ -111,5 +112,15 @@ public class GameManager : MonoBehaviour
     void LoadGameOverAfterDelay()
     {
         SceneManager.LoadScene("GameOver");
+    }
+
+    public void LevelComplete()
+    {
+        GameObject MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        if (GetComponent<AudioSource>())
+        {
+            GetComponent<AudioSource>().Stop();
+        }
+        Instantiate(levelComplete, MainCamera.transform.position + new Vector3(0.0f, 0.0f, 1.0f), levelComplete.transform.rotation);
     }
 }

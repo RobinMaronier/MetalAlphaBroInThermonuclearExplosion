@@ -24,8 +24,15 @@ public class PlayerDeathOnImpact : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider col)
     {
+        if (col.tag == "LevelEnd")
+        {
+            //transform.parent.position += new Vector3(0.0f, 1.0f, 0.0f);
+            transform.parent.gameObject.SetActive(false);
+            GameObject.Find("$GameManager").GetComponent<GameManager>().LevelComplete();
+            return;
+        }
         GetComponent<AudioSource>().Play();
         gameObject.GetComponentInParent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
         Invoke("Flashing", 0.05f);
