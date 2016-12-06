@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{247D76E4-0369-38A5-3D05-D95D34770823}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DestroyAfterDelay.cs" />
+     <Compile Include="Assets\GameOverManager.cs" />
+     <Compile Include="Assets\LockCameraEnd.cs" />
+     <Compile Include="Assets\PlayerKatana.cs" />
+     <Compile Include="Assets\PlayerShield.cs" />
+     <Compile Include="Assets\PlayerShootMinigun.cs" />
+     <Compile Include="Assets\PlayerShootSniper.cs" />
+     <Compile Include="Assets\Scripts\BarrelRedBehaviour.cs" />
+     <Compile Include="Assets\Scripts\BaseLaserBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Bomb.cs" />
+     <Compile Include="Assets\Scripts\BombBehaviour.cs" />
+     <Compile Include="Assets\Scripts\BombContainer.cs" />
+     <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ButtonMovementBigBlue.cs" />
+     <Compile Include="Assets\Scripts\ButtonMovementBigRed.cs" />
+     <Compile Include="Assets\Scripts\ButtonMovementBlue.cs" />
+     <Compile Include="Assets\Scripts\ButtonMovementRed.cs" />
+     <Compile Include="Assets\Scripts\ButtonMovementYellow.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DestroyGib.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnImpact.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnInvisible.cs" />
+     <Compile Include="Assets\Scripts\DestroySlash.cs" />
+     <Compile Include="Assets\Scripts\DrawMeAGuizmo.cs" />
+     <Compile Include="Assets\Scripts\EnableAllScriptsOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot01.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot02.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot03.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot04.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot05.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot06.cs" />
+     <Compile Include="Assets\Scripts\FodderAI.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameOverOnDestroy.cs" />
+     <Compile Include="Assets\Scripts\GibOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\HarrassPlayer.cs" />
+     <Compile Include="Assets\Scripts\ItemSelectionChange.cs" />
+     <Compile Include="Assets\Scripts\JoystickMovement.cs" />
+     <Compile Include="Assets\Scripts\LimitFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\LookAtNearestEnemy.cs" />
+     <Compile Include="Assets\Scripts\LookAtNearestPlayer.cs" />
+     <Compile Include="Assets\Scripts\MoveDown.cs" />
+     <Compile Include="Assets\Scripts\MoveForward.cs" />
+     <Compile Include="Assets\Scripts\OnHittingBlockingObject.cs" />
+     <Compile Include="Assets\Scripts\PlaySoundOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\PlayerDeathOnImpact.cs" />
+     <Compile Include="Assets\Scripts\PlayerKnife.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+     <Compile Include="Assets\Scripts\PlayerShootLazer.cs" />
+     <Compile Include="Assets\Scripts\PlayerShootShotgun.cs" />
+     <Compile Include="Assets\Scripts\PointBehaviour.cs" />
+     <Compile Include="Assets\Scripts\PowerUp.cs" />
+     <Compile Include="Assets\Scripts\PowerUpManager.cs" />
+     <Compile Include="Assets\Scripts\RandomLinearMove2d.cs" />
+     <Compile Include="Assets\Scripts\RandomizePitch.cs" />
+     <Compile Include="Assets\Scripts\RotateBackAndForth2d.cs" />
+     <Compile Include="Assets\Scripts\SeekingGrenade.cs" />
+     <Compile Include="Assets\Scripts\Skill01Behaviour.cs" />
+     <Compile Include="Assets\Scripts\SpawnObject.cs" />
+     <Compile Include="Assets\Scripts\SpawnWave.cs" />
+     <Compile Include="Assets\Scripts\StretchSpriteBetweenPoints.cs" />
+     <Compile Include="Assets\Scripts\playerScore.cs" />
+     <Compile Include="Assets\ShotgunShellBehaviour.cs" />
+     <Compile Include="Assets\Skill04Behaviour.cs" />
+     <Compile Include="Assets\Sounds.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
